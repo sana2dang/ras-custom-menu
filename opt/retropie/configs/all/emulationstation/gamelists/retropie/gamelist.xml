@@ -82,7 +82,7 @@
 	</game>
 	<game>
 		<path>./gpio2p.sh</path>
-		<name>GPIO 1p 2p 활성화</name>
+		<name>[GPIO] 1p 2p 활성화</name>
 		<desc>GPIO 1p 2p를 활성화 합니다. 재부팅 후 적용됩니다.</desc>
 		<image>/home/pi/RetroPie/retropiemenu/icons/gpio2p.png</image>
 		<playcount>1</playcount>
@@ -90,7 +90,7 @@
 	</game>
 	<game>
 		<path>./gpioOff.sh</path>
-		<name>GPIO 비활성화</name>
+		<name>[GPIO] 비활성화</name>
 		<desc>GPIO를 비활성화 합니다. 재부팅 후 적용됩니다.</desc>
 		<image>/home/pi/RetroPie/retropiemenu/icons/gpioOff.png</image>
 		<playcount>1</playcount>
@@ -98,7 +98,7 @@
 	</game>
 	<game>
 		<path>./oledOn.sh</path>
-		<name>OLED 활성화</name>
+		<name>[OLED] 활성화</name>
 		<desc>OLED를 활성화 합니다. 재부팅 후 적용됩니다.</desc>
 		<image>/home/pi/RetroPie/retropiemenu/icons/oledOn.png</image>
 		<playcount>1</playcount>
@@ -106,7 +106,7 @@
 	</game>
 	<game>
 		<path>./oledOff.sh</path>
-		<name>OLED 비활성화</name>
+		<name>[OLED] 비활성화</name>
 		<desc>OLED를 비활성화 합니다. 재부팅 후 적용됩니다.</desc>
 		<image>/home/pi/RetroPie/retropiemenu/icons/oledOff.png</image>
 		<playcount>1</playcount>
@@ -122,9 +122,25 @@
 	</game>
 	<game>
 		<path>./gpio1p.sh</path>
-		<name>GPIO 1p 활성화</name>
+		<name>[GPIO] 1p 활성화</name>
 		<desc>GPIO 1p를 활성화 합니다. 재부팅 후 적용됩니다.</desc>
 		<image>/home/pi/RetroPie/retropiemenu/icons/gpio1p.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20181112T132959</lastplayed>
+	</game>
+	<game>
+		<path>./dacOn.sh</path>
+		<name>[AUDIO] DAC audio 활성화</name>
+		<desc>DAC audio를 활성화 합니다. 재부팅 후 적용됩니다.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/dacOn.png</image>
+		<playcount>3</playcount>
+		<lastplayed>20181112T132959</lastplayed>
+	</game>
+	<game>
+		<path>./hdmiOn.sh</path>
+		<name>[AUDIO] HDMI audio 활성화</name>
+		<desc>HDMI audio를 활성화 합니다. 재부팅 후 적용됩니다.</desc>
+		<image>/home/pi/RetroPie/retropiemenu/icons/hdmiOn.png</image>
 		<playcount>3</playcount>
 		<lastplayed>20181112T132959</lastplayed>
 	</game>
